@@ -17,5 +17,6 @@ public class YahooMainSearch
 		YahooHomePage pg=ApplicationUtility.openurl(driver, ConfigReader.getPropertyValue("app_url"));
 		pg.enterSearchText("test");
 		pg.clickOnAnyOnePromptedTextInSearch("testing");
+		System.out.println("Testing sample");
 	}
 }
